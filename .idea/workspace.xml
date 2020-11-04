@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e98009bf-f8d9-4729-b13f-06fb4fe9987f" name="Default Changelist" comment="" />
+    <list default="true" id="e98009bf-f8d9-4729-b13f-06fb4fe9987f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/GmeEngineDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/GmeEngineDemo.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,26 +85,34 @@
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state x="2357" y="242" key="FileChooserDialogImpl/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453693495" />
-    <state width="1215" height="58" key="GridCell.Tab.0.bottom" timestamp="1604453444280">
+    <state x="2424" y="398" key="Github.ShareDialog" timestamp="1604453706623">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="2424" y="398" key="Github.ShareDialog/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453706623" />
+    <state x="2376" y="178" key="Github.UntrackedFilesDialog" timestamp="1604453724566">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="2376" y="178" key="Github.UntrackedFilesDialog/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453724566" />
+    <state width="1215" height="58" key="GridCell.Tab.0.bottom" timestamp="1604453959362">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state width="1215" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1280.1024@0.0.1920.1044" timestamp="1604451133626" />
-    <state width="1215" height="58" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453444280" />
-    <state width="1215" height="58" key="GridCell.Tab.0.center" timestamp="1604453444280">
+    <state width="1215" height="58" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453959362" />
+    <state width="1215" height="58" key="GridCell.Tab.0.center" timestamp="1604453959362">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state width="1215" height="242" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1280.1024@0.0.1920.1044" timestamp="1604451133626" />
-    <state width="1215" height="58" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453444280" />
-    <state width="1215" height="58" key="GridCell.Tab.0.left" timestamp="1604453444280">
+    <state width="1215" height="58" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453959362" />
+    <state width="1215" height="58" key="GridCell.Tab.0.left" timestamp="1604453959361">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state width="1215" height="242" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1280.1024@0.0.1920.1044" timestamp="1604451133626" />
-    <state width="1215" height="58" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453444280" />
-    <state width="1215" height="58" key="GridCell.Tab.0.right" timestamp="1604453444280">
+    <state width="1215" height="58" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453959361" />
+    <state width="1215" height="58" key="GridCell.Tab.0.right" timestamp="1604453959362">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state width="1215" height="242" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1280.1024@0.0.1920.1044" timestamp="1604451133626" />
-    <state width="1215" height="58" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453444280" />
+    <state width="1215" height="58" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604453959362" />
     <state width="1215" height="300" key="GridCell.Tab.1.bottom" timestamp="1604452544000">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
@@ -129,7 +139,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/GmeEngineDemo.go</url>
-          <line>94</line>
+          <line>95</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
