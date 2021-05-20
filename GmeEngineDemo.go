@@ -1,10 +1,12 @@
 package main
 
 import (
+	"bytes"
+	"embed"
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 	"golang.org/x/image/colornames"
+	"image"
 	_ "image/png"
 	"log"
 	"math/rand"
@@ -23,6 +25,9 @@ type Sprite struct {
 	dx   int
 	dy   int
 }
+
+//go:embed gold-coins-large.png galleon.png
+var embeddedAssets embed.FS
 
 type Game struct {
 	playerSprite  Sprite
@@ -87,7 +92,7 @@ func main() {
 	ebiten.SetWindowSize(ScreenWidth, ScreenHeight)
 	ebiten.SetWindowTitle("Comp510 First Graphics")
 	gameObject := Game{}
-	loadImage(&gameObject)
+	loadImages(&gameObject)
 	gameObject.playerSprite.yLoc = ScreenHeight / 2
 	width, height := gameObject.coinSprite.pict.Size()
 	rand.Seed(int64(time.Now().Second()))
@@ -98,15 +103,22 @@ func main() {
 	}
 }
 
-func loadImage(game *Game) {
-	pict, _, err := ebitenutil.NewImageFromFile("galleon.png")
-	if err != nil {
-		log.Fatal("failed to load image", err)
-	}
+func loadImages(game *Game) {
+	pict := loadImageFromEmbedded("galleon.png")
 	game.playerSprite.pict = pict
-	coins, _, err := ebitenutil.NewImageFromFile("gold-coins-large.png")
-	if err != nil {
-		log.Fatal("failed to load image", err)
-	}
+	coins := loadImageFromEmbedded("gold-coins-large.png")
 	game.coinSprite.pict = coins
+}
+
+func loadImageFromEmbedded(name string) *ebiten.Image {
+	pictBytes, err := embeddedAssets.ReadFile(name)
+	if err != nil {
+		log.Fatal("failed to load embedded image ", name, err)
+	}
+	rawImage, _, err := image.Decode(bytes.NewReader(pictBytes))
+	if err != nil {
+		log.Fatal("failed to load embedded image ", name, err)
+	}
+	gameImage := ebiten.NewImageFromImage(rawImage)
+	return gameImage
 }

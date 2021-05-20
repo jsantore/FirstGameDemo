@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e98009bf-f8d9-4729-b13f-06fb4fe9987f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GmeEngineDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/GmeEngineDemo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../go1.15.2" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -50,8 +53,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,42 +71,42 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.game_test.go">
+  <component name="RunManager" selected="Go Build.go build GmeEngineDemo.go">
     <configuration name="go build GmeEngineDemo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="FirstGameDemo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/GmeEngineDemo.go" />
       <package value="FirstGameDemo" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/GmeEngineDemo.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestGot_gold in FirstGameDemo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="FirstGameDemo" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="FirstGameDemo" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestGot_gold\E$" />
       <method v="2" />
     </configuration>
     <configuration name="game_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="FirstGameDemo" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <package value="FirstGameDemo" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/game_test.go" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GmeEngineDemo.go" />
         <item itemvalue="Go Test.game_test.go" />
         <item itemvalue="Go Test.TestGot_gold in FirstGameDemo" />
-        <item itemvalue="Go Build.go build GmeEngineDemo.go" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +124,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -180,16 +186,5 @@
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state x="2071" y="134" key="SettingsEditor/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1604449733891" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/GmeEngineDemo.go</url>
-          <line>95</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
